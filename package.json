@@ -1,0 +1,18 @@
+{
+  "name": "lensligt",
+  "version": "1.0.0",
+  "description": "lensligt proje",
+  "license": "ISC",
+  "author": "fatih kilic",
+  "type": "module",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "dependencies": {
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.11"
+  }
+}
