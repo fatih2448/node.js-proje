@@ -2,6 +2,14 @@
   "name": "lensligt",
   "version": "1.0.0",
   "description": "lensligt proje",
+  "homepage": "https://github.com/fatih2448/node.js-proje#readme",
+  "bugs": {
+    "url": "https://github.com/fatih2448/node.js-proje/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fatih2448/node.js-proje.git"
+  },
   "license": "ISC",
   "author": "fatih kilic",
   "type": "module",
@@ -10,7 +18,11 @@
     "start": "nodemon app.js"
   },
   "dependencies": {
-    "express": "^5.2.1"
+    "dotenv": "^17.2.3",
+    "ejs": "^3.1.10",
+    "express": "^5.2.1",
+    "mongodb": "^7.0.0",
+    "mongoose": "^9.0.1"
   },
   "devDependencies": {
     "nodemon": "^3.1.11"
